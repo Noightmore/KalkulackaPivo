@@ -8,6 +8,7 @@ import Footer from "@/components/Footer.vue";
     <header>
         <img alt="pivo" class="logo" src="./assets/beer.png" width="527" height="380" />
     </header>
+
     <main>
         <Calk/>
     </main>
