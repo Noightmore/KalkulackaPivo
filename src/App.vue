@@ -1,15 +1,17 @@
 <script setup>
 import Calk from './components/Kalkulacka.vue'
+import Footer from "@/components/Footer.vue";
+
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-  </header>
+    <header>
+        <img alt="pivo" class="logo" src="./assets/beer.png" width="527" height="380" />
+    </header>
+    <main>
+        <Calk/>
+    </main>
 
-  <main>
-      <Calk/>
-  </main>
 </template>
 
 <style scoped>
@@ -38,5 +40,11 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
+
+  body {
+      width: 100%;
+  }
+
+
 }
 </style>

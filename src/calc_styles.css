@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #007bff;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+input[type="number"], button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+    font-size: 1rem;
+    background-color: #eee;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+ul {
+    margin-top: 1rem;
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+template {
+    outline: rgba(0, 123, 255, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.container {
+    display: flex; /* Display the container as a flexbox */
+    flex-wrap: wrap; /* Allow the items to wrap to the next line */
+}
+
+.item {
+    flex: 1 auto; /* Make the items take up the full width of the container */
+    background-color: #ccc; /* Add some background color to the items for visibility */
+}
