@@ -13,14 +13,14 @@
 
     <div>
         <br />
-        <h2>Přidat slady:</h2>
+        <h2>Použité slady:</h2>
         <div v-for="(textBox, index) in textBoxes" :key="index">
             <p>Parametry sladu {{ index + 1 }} </p>
             <input type="number" step="0.1" min="0" v-model="extracts[index]" :placeholder="'Extraktivnost ' + (index + 1)">
             <input type="number" step="0.1" min="0" v-model="ratios[index]" :placeholder="'Podíl ' + (index + 1)">
         </div>
         <div>
-            <button id="add-button" @click="addTextBoxes">+</button>
+            <button id="add-button" @click="addTextBoxes">přidat slad</button>
         </div>
 
         <p v-if="totalMultiplication">Celková extraktivnost sladu: {{ totalMultiplication }}</p>
