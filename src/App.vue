@@ -6,7 +6,7 @@ import Footer from "@/components/Footer.vue";
 
 <template>
     <header>
-        <img alt="pivo" class="logo" src="./assets/beer.png" width="527" height="380" />
+        <img alt="pivo" class="logo" src="./assets/beer.png" width="400" height="250" />
     </header>
 
     <main>
